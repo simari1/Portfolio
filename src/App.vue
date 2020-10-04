@@ -1,14 +1,24 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <globalHeader></globalHeader>
+    <router-view />
   </div>
 </template>
 
+<script>
+import globalHeader from './components/globalHeader.vue';
+import 'normalize.css';
+
+export default {
+    name: 'App',
+    components: {
+        globalHeader,
+    },
+};
+</script>
+
 <style lang="scss">
+$imageColor: #42b983;
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -19,13 +29,12 @@
 
 #nav {
   padding: 30px;
-
   a {
     font-weight: bold;
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color:$imageColor;
     }
   }
 }

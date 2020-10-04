@@ -1,59 +1,86 @@
 <template>
-  <div class="hello">
+  <div class="container">
+    <img alt="Vue logo" src="../assets/logo.png">
     <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+
+    <!-- Who I am -->
+    <div class="card shadow-sm">
+      <div class="card-header"><h2>Who I am</h2></div>
+      <div class="card-body shadow-sm">
+        <h4 class="card-title">@simariについて</h4>
+        <p class="card-text">
+          <ul>
+              <li>30代前半</li>
+              <li>都内のSIerで働いています</li>
+              <li>東京都小金井市に住んでいます</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+
+    <!-- About this page -->
+    <div class="card">
+      <div class="card-header shadow-sm">
+        <h2>About this page</h2>
+      </div>
+      <div class="card-body shadow-sm">
+        <h4 class="card-title">このページについて</h4>
+        <p class="card-text">
+          このページ@simariのポートフォリオサイトです。<br />
+          このページは勉強を兼ねてVue.js, Bootstrapを利用して作られています。
+        </p>
+      </div>
+    </div>
+
+    <!-- Essential Links -->
+    <div class="card">
+      <div class="card-header shadow-sm"><h2>Essential Links</h2></div>
+      <div class="card-body shadow-sm">
+        <h4 class="card-title">@simariを知るためのリンク集です</h4>
+            <ul class="list-group list-group-horizontal-md">
+                <li class="list-group-item"><a href="https://github.com/simari1" target="_blank">GitHub</a></li>
+                <li class="list-group-item"><a href="https://qiita.com/simari" target="_blank">Qiita</a></li>
+                <li class="list-group-item"><a href="https://twitter.com/Italianimals1" target="_blank">Twitter</a></li>
+            </ul>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String,
-  },
+    name: 'HelloWorld',
+    props: {
+        msg: String,
+    },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
+
+.container {
+  font-size: 20px;
+  color: #666;
+  margin-top: 60px;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
+h1 {
+  margin: 20px;
 }
 a {
   color: #42b983;
+}
+.card {
+  margin-bottom: 40px;
+  .list-group {
+    justify-content: center;
+  }
+}
+ul {
+  list-style-position: inside;
+  li {
+    margin-bottom: 10px;
+    list-style-image: url("../assets/icons/check.svg");
+  }
 }
 </style>
