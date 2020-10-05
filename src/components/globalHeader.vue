@@ -4,11 +4,11 @@
       <b-nav class="bg-dark">
         <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
           <b-nav-item href="/"><span class="text-white">Home</span></b-nav-item>
-          <b-nav-item href="/skills"
-            ><span class="text-white">skills</span></b-nav-item
+          <b-nav-item href="/Skills"
+            ><span class="text-white">Skills</span></b-nav-item
           >
-          <b-nav-item href="/experience"
-            ><span class="text-white">experience</span></b-nav-item
+          <b-nav-item href="/Experience"
+            ><span class="text-white">Experience</span></b-nav-item
           >
         </div>
       </b-nav>

@@ -4,8 +4,8 @@ import VueRouter from 'vue-router';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 
-import skills from '@/components/skills.vue';
-import experience from '@/components/experience.vue';
+import Skills from '@/views/Skills.vue';
+import Experience from '@/views/Experience.vue';
 import Home from '../views/Home.vue';
 
 Vue.use(VueRouter);
@@ -18,14 +18,14 @@ const routes = [
         component: Home,
     },
     {
-        path: '/skills',
-        name: 'skills',
-        component: skills,
+        path: '/Skills',
+        name: 'Skills',
+        component: Skills,
     },
     {
-        path: '/experience',
-        name: 'experience',
-        component: experience,
+        path: '/Experience',
+        name: 'Experience',
+        component: Experience,
     },
 ];
 

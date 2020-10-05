@@ -43,7 +43,7 @@
             <b-card-text>
               最初の1年間は主に問い合わせ対応がメインでした。ヘルプデスクの真似事の様な事もしていました。
               その時にバグが起きたプログラムのソースを読んだりして、プログラムを読む技術が身についたと思います。
-              使用していた言語は主にvb6。</b-card-text
+              使用していた言語は主にvb6やvbs。</b-card-text
             >
           </b-card-body>
         </b-collapse>
@@ -74,9 +74,9 @@
         <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
           <b-card-body>
             <b-card-text
-              >4年目以降はいきなりUnix系のサーバメンテ担当に回されました。CUIに翻弄されつつも楽しい日々でした。
-              お前のシステムを通ると1バイトデータが抜けるって(´・ω・`)知らんがなと
-              言いたい気持ちをぐっと抑えて数千行のC言語のコードを見るのはツラかった。。。
+              >4年目以降はいきなりUnix系のサーバメンテ担当に回されました。CUIに翻弄され毎日が格闘でした。
+              お前のシステムを通ると1バイトデータが抜けるって(´・ω・`)<br>
+              知らんがなと言いたい気持ちをぐっと抑えて1990年代に書かれた数千行のC言語のコードを見るのはツラかった。。。
             </b-card-text>
           </b-card-body>
         </b-collapse>
@@ -85,7 +85,7 @@
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
           <b-button block v-b-toggle.accordion-4 variant="info"
-            >外の世界の嵐</b-button
+            >井戸から出る</b-button
           >
         </b-card-header>
         <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
@@ -93,7 +93,7 @@
             <b-card-text
               >ずっとvb一筋でやってきてSOLIDも知らなかった自分には全てがカルチャ―ショックでした。
               自分ではプログラムはそこそこ書けるつもりでしたが、
-              転職直後のプロジェクトで上司に「君の技術は20年遅れている」と言われたのは大きなショックでした。
+              転職直後のプロジェクトで上司に「君の技術は20年遅れている」と言われ衝撃を受ける。（まあ読んでいたのは1990年代のソースだから当たっているｗ）
             </b-card-text>
           </b-card-body>
         </b-collapse>
@@ -108,8 +108,8 @@
         <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
           <b-card-body>
             <b-card-text>
-              残業の多さやプレッシャーに潰されそうになるも、良い上司、同僚に恵まれる。
-              学んだことをすぐ生かせる知的好奇心を満たせるプロジェクトで楽しい日々でした。
+              残業の多さやプレッシャーに潰されそうになりつつsurviveする。
+              ただ学んだことをすぐ生かせる環境があり、知的好奇心を満たせるプロジェクトが多かったです。
             </b-card-text>
           </b-card-body>
         </b-collapse>
@@ -118,15 +118,15 @@
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
           <b-button block v-b-toggle.accordion-6 variant="info"
-            >そして伝説へ、、、</b-button
+            >Webを勉強し始める</b-button
           >
         </b-card-header>
         <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
           <b-card-body>
             <b-card-text>
-                ずっと薄々気づいていたけど、Web技術をやっていなかったので、このままじゃいけない！と遅まきながら一念発起しWebの勉強を始める。
+                ずっと薄々気づいていたけど、Web技術を全くやっていなかったので、このままじゃいけない！と遅まきながら一念発起しWebの勉強を始める。
                 とりあえずHTML,CSS,Bootstrap,JavaScript,TypeScript,Vue.js, Node.js等手当たり次第に手を出すが、
-                WebPackやBabel等の設定が意味不明すぎて死亡。CUIは嫌いだ、、、。
+                WebPackやBabel等の設定が意味不明すぎて死亡。
             </b-card-text>
           </b-card-body>
         </b-collapse>

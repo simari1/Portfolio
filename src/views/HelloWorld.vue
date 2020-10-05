@@ -27,7 +27,8 @@
         <h4 class="card-title">このページについて</h4>
         <p class="card-text">
           このページ@simariのポートフォリオサイトです。<br />
-          このページは勉強を兼ねてVue.js, Bootstrapを利用して作られています。
+          このページは勉強を兼ねてVue.js, Bootstrapを利用して作られています。<br />
+          レスポンシブにも対応しています。
         </p>
       </div>
     </div>
@@ -73,9 +74,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-div #TweetTimeline {
-  margin-right: 0;
-}
 .container {
   font-size: 20px;
   h1 {
