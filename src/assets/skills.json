@@ -10,7 +10,7 @@
     "id": 2,
     "name": "Azure",
     "logo": "azure.svg",
-    "years": "2",
+    "years": "3",
     "explanation": "Azure大好きです。Azureを使ってコードも書けて、インフラもできる両刀使いになりたい。"
     },
     {
@@ -39,6 +39,6 @@
     "name": "Vue.js",
     "logo": "Vue.png",
     "years": "1",
-    "explanation": "只今鋭意勉強中。初めてのJavaScriptフレームワークということで、ComponentやMVVMとか難しいけど、モダンなWebアプリ開発楽しい。"
+    "explanation": "只今鋭意勉強中。選定理由はAngularやReactと比べてアイコンがかっこいいから（爆）。初めてのJavaScriptフレームワークということで、ComponentやMVVMとか難しいけど、モダンなWebアプリ開発楽しい。"
     }
 ]
