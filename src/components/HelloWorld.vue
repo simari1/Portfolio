@@ -44,12 +44,27 @@
             </ul>
       </div>
     </div>
+
+<div class="row">
+    <div class="col-md-8" id="TweetTimeline">
+        <Tweet></Tweet>
+    </div>
+    <div class="col-md-4">
+        Copyright 2020 @simari
+    </div>
+</div>
+
   </div>
 </template>
 
 <script>
+import Tweet from '@/components/twitter.vue';
+
 export default {
     name: 'HelloWorld',
+    components: {
+        Tweet,
+    },
     props: {
         msg: String,
     },
@@ -58,29 +73,29 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
+div #TweetTimeline {
+  margin-right: 0;
+}
 .container {
   font-size: 20px;
-  color: #666;
-  margin-top: 60px;
-}
-h1 {
-  margin: 20px;
-}
-a {
-  color: #42b983;
-}
-.card {
-  margin-bottom: 40px;
-  .list-group {
-    justify-content: center;
+  h1 {
+    margin: 20px;
   }
-}
-ul {
-  list-style-position: inside;
-  li {
-    margin-bottom: 10px;
-    list-style-image: url("../assets/icons/check.svg");
+  a {
+    color: $imageColor;
+  }
+  .card {
+    margin-bottom: 40px;
+    .list-group {
+      justify-content: center;
+    }
+  }
+  ul {
+    list-style-position: inside;
+    li {
+      margin-bottom: 10px;
+      list-style-image: url("../assets/icons/check.svg");
+    }
   }
 }
 </style>
