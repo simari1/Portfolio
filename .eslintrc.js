@@ -23,5 +23,6 @@ module.exports = {
         'array-bracket-newline': [
             'error', 'always',
         ],
+        "linebreak-style": 0,
     },
 };
