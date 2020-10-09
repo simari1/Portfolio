@@ -1,19 +1,19 @@
 {
-    "routes": [
-      {
-        "route": "/*",
-        "serve": "/Home",
-        "statusCode": 200
-      },
-      {
-        "route": "/Skills",
-        "serve": "/Skills",
-        "statusCode": 200
-      },
-      {
-        "route": "/Experience",
-        "serve": "/Experience",
-        "statusCode": 200
-      }      
-    ]
-  }
+  "routes": [
+    {
+      "route": "/Skills",
+      "serve": "/Skills",
+      "statusCode": 200
+    },
+    {
+      "route": "/Experience",
+      "serve": "/Experience",
+      "statusCode": 200
+    },
+    {
+      "route": "/*",
+      "serve": "/Home",
+      "statusCode": 200
+    }
+  ]
+}
