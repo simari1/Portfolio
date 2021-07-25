@@ -37,7 +37,7 @@
     <div class="card">
       <div class="card-header shadow-sm"><h2>Essential Links</h2></div>
       <div class="card-body shadow-sm">
-        <h4 class="card-title">@simariを知るためのリンク集です</h4>
+        <h4 class="card-title">@simariを知るためのリンク集です。</h4>
             <ul class="list-group list-group-horizontal-md">
                 <li class="list-group-item"><a href="https://github.com/simari1" target="_blank">GitHub</a></li>
                 <li class="list-group-item"><a href="https://qiita.com/simari" target="_blank">Qiita</a></li>
