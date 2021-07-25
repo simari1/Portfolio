@@ -42,6 +42,7 @@
                 <li class="list-group-item"><a href="https://github.com/simari1" target="_blank">GitHub</a></li>
                 <li class="list-group-item"><a href="https://qiita.com/simari" target="_blank">Qiita</a></li>
                 <li class="list-group-item"><a href="https://twitter.com/Italianimals1" target="_blank">Twitter</a></li>
+                <li class="list-group-item"><a href="https://www.simari.info/index.html" target="_blank">Learn</a></li>
             </ul>
       </div>
     </div>
