@@ -52,7 +52,7 @@
         <Tweet></Tweet>
     </div>
     <div class="col-md-4">
-        Copyright 2020 @simari
+        Copyright 2021 @simari
     </div>
 </div>
 
